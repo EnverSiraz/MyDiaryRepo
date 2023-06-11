@@ -1,45 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/ec7d92282b.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+  
 </head>
+
 <body>
 
-<label>Title</label>
-<input id="titlebox" type="text">
+  <div id="mainDiv">
+    <div id="newDiaryDiv">
+      <h2 style="margin: 0px;">Title</h2>
+      <input style="font-size: x-large;" id="titlebox" type="text">
 
-<label>Text</label>
-<input id="textbox" type="text">
+      <h2 style="margin: 0px;">Text</h2>
+      <textarea style="resize: none; height: 500px; font-size: xx-large; align-items: end;" id="textbox" type="text" ></textarea>
 
-<button onclick="add()" id="addButton">Add</button>
+      <div style="display: flex; justify-content: center; padding-top: 20px;">
+        <button onclick="create()" id="addButton"><i class="far fa-save fa-xl"></i></button>
+ 
+
+      </div>
 
 
 
+    </div>
+    <div id="tableDiv">
 
-
- <table id="tablo">
+      <table id="tablo">
         <thead>
           <tr>
-            <th>Title</th>
-            <th>Text</th>
-           
-            
+        
+
           </tr>
         </thead>
         <tbody id="tabloBody">
-          
+
 
         </tbody>
-    
-      </table> 
+
+      </table>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
 
 
 
 </body>
-<script src="index.js" ></script>
+<script src="index.js"></script>
+
 </html>
