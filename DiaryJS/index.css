@@ -1,0 +1,41 @@
+@font-face {
+    font-family: handwrite ;
+    src: url(fonts/RoyalWedding-Regular.otf);
+    font-weight:100;
+    font-size: x-large;
+}
+
+@font-face {
+    font-family: handwrite2 ;
+    src: url(fonts/NovaQuinta_PERSONAL_USE_ONLY.otf);
+    font-weight:100px;
+    font-size: x-large;
+   
+    
+}
+
+.deleteButton10{
+    background-color: blue;
+}
+
+table {
+ 
+    border-collapse: collapse;
+    width: 100%;
+    
+
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+ 
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  a {
+    font-size:50px
+  }
